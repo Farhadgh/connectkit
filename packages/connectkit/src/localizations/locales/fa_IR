@@ -1,0 +1,118 @@
+import { LocaleProps } from './';
+
+const faIR: LocaleProps = {
+  connectWallet: 'کیف پول',
+  disconnect: 'قطع اتصال',
+  connected: 'متصل هستید',
+  wrongNetwork: 'شبکه اشتباه',
+  switchNetworks: 'تغییر شبکه',
+  chainNetwork: '{{ CHAIN }} شبکه',
+  copyToClipboard: 'کپی',
+  copyCode: 'کپی  برنامه',
+  moreInformation: 'اتصال بیشتر',
+  back: 'بازگشت',
+  close: 'بستن',
+  or: 'یا',
+  more: 'بیشتر',
+  tryAgain: 'تلاش دوباره',
+  tryAgainQuestion: 'تلاش دوباره؟',
+  dontHaveTheApp: "اپلیکیشن نداری؟",
+  scanTheQRCode: 'کد QR اسکن',
+  useWalletConnectModal: ' استفاده ازکیف مدال',
+  useModal: 'استفاده از مدال',
+  installTheExtension: 'نصب افزونه',
+  getWalletName: 'گرفتن {{ CONNECTORNAME }}',
+  otherWallets: 'کیف های دیگر',
+  learnMore: 'بیشتر بدانید',
+  getWallet: 'یک کیف را انتخاب کن',
+  approveInWallet: 'پذیرش در کیف',
+  confirmInWallet: 'تایید نهایی در کیف',
+  awaitingConfirmation: 'در حال انتظار پذیرش',
+  signIn: 'ورود',
+  signOut: 'خروج',
+  signedIn: 'وارد شده',
+  signedOut: 'خارج شده',
+  walletNotConnected: 'کیف متصل نشده',
+
+  warnings_walletSwitchingUnsupported: `کیف پول شما از تغییر شبکه بلاکچین  پشتیبانی نمی کند.`,
+  warnings_walletSwitchingUnsupportedResolve: `سعی کنید شبکه ها را از داخل کیف پول خود تغییر دهید.`,
+  warnings_chainUnsupported: `این برنامه از شبکه متصل فعلی پشتیبانی نمی کند.`,
+  warnings_chainUnsupportedResolve: `برای ادامه، شبکه را تغییر دهید یا قطع کنید.`,
+
+  onboardingScreen_heading: `کیف پول را انتخاب کنید`,
+  onboardingScreen_h1: `آشنایی با وب 3`,
+  onboardingScreen_p: `کیف پول شما دروازه ای برای همه چیز اتریوم است، فناوری جادویی که امکان کاوش در وب 3 را فراهم می کند.`,
+  onboardingScreen_ctaText: `اولین کیف رمزارز را انتخاب کنید`,
+  onboardingScreen_ctaUrl: `https://ethereum.org/en/wallets/find-wallet/`,
+
+  aboutScreen_heading: `درباره کیف های پول`,
+  aboutScreen_a_h1: `برای دارایی های دیجیتال شما`,
+  aboutScreen_a_p: `کیف پول ها به شما امکان ارسال، دریافت، ذخیره و تعامل با دارایی های دیجیتالی مانندان اف تی وسایر توکن های اتریوم را می دهند.`,
+  aboutScreen_b_h1: `یک راه بهتر برای ورود`,
+  aboutScreen_b_p: `با برنامه‌های مدرن، کیف پول شما می‌تواند به‌جای به خاطر سپردن رمز عبور، به عنوان راهی آسان برای ورود به سیستم استفاده شود.`,
+  aboutScreen_c_h1: `کشف جهان وب 3`,
+  aboutScreen_c_p: `کیف پول شما یک ابزار ضروری است که به شما امکان می دهد دنیای وب 3 در حال تکامل سریع را کاوش کرده و در آن شرکت کنید.`,
+  aboutScreen_ctaText: `بیشتر بدانید`,
+  aboutScreen_ctaUrl: `https://ethereum.org/en/wallets/`,
+
+  connectorsScreen_heading: `اتصال به کیف`,
+  connectorsScreen_newcomer: `من کیف ندارم`,
+  connectorsScreen_h1: `کیفرمزارز چیست؟`,
+  connectorsScreen_p: `کیف پول برای ارسال، دریافت و ذخیره دارایی های دیجیتال استفاده می شود. اتصال کیف پول به شما امکان می دهد با برنامه ها تعامل داشته باشید.`,
+
+  mobileConnectorsScreen_heading: `انتخاب کبف`,
+
+  scanScreen_heading: `اسکن با موبایل`,
+  scanScreen_heading_withConnector: `اسکن با  {{ CONNECTORNAME }}`,
+  scanScreen_tooltip_walletConnect: `یک کیف پول [WALLETCONNECTLOGO] WalletConnect \nبرای اسکن باز کنید`,
+  scanScreen_tooltip_default: `برای اسکن،{{ CONNECTOR NAME }} \nرا روی تلفن همراه خود باز کنید`,
+
+  downloadAppScreen_heading: `Get {{ CONNECTORNAME }}`,
+  downloadAppScreen_iosAndroid: `Scan with your phone camera to download on iOS or Android.`,
+  downloadAppScreen_ios: `Scan with your phone camera to download on iOS.`,
+  downloadAppScreen_android: `Scan with your phone camera to download Android.`,
+
+  injectionScreen_unavailable_h1: `Unsupported Browser`,
+  injectionScreen_unavailable_p: `To connect your {{ CONNECTORSHORTNAME }} wallet,\ninstall the extension on {{ SUGGESTEDEXTENSIONBROWSER }}.`,
+
+  injectionScreen_install_h1: `Install {{ CONNECTORNAME }}`,
+  injectionScreen_install_p: `To connect your {{ CONNECTORSHORTNAME }} wallet,\ninstall the browser extension.`,
+
+  injectionScreen_connecting_h1: `Requesting Connection`,
+  injectionScreen_connecting_p: `Open the {{ CONNECTORSHORTNAME }} browser \nextension to connect your wallet.`,
+  injectionScreen_connecting_injected_h1: `Requesting Connection`,
+  injectionScreen_connecting_injected_p: `Accept the request through your wallet to connect to this app.`,
+
+  injectionScreen_connected_h1: `Already Connected`,
+  injectionScreen_connected_p: `It is now okay to close this popup`,
+
+  injectionScreen_rejected_h1: `Request Cancelled`,
+  injectionScreen_rejected_p: `You cancelled the request.\nClick above to try again.`,
+
+  injectionScreen_failed_h1: `Connection Failed`,
+  injectionScreen_failed_p: `Sorry, something went wrong.\nPlease try connecting again.`,
+
+  injectionScreen_notconnected_h1: `Login to {{ CONNECTORNAME }}`,
+  injectionScreen_notconnected_p: `To continue, please login to your {{ CONNECTORNAME }} extension.`,
+
+  profileScreen_heading: 'Connected',
+
+  switchNetworkScreen_heading: 'Switch Networks',
+
+  signInWithEthereumScreen_tooltip:
+    'You’re not signed in to this app.\n**Sign In With Ethereum** to continue.',
+
+  signInWithEthereumScreen_signedOut_heading: 'Sign In With Ethereum',
+  signInWithEthereumScreen_signedOut_h1:
+    'This app would like to verify you \n as the owner of this wallet.',
+  signInWithEthereumScreen_signedOut_p: `Please sign the message request \n in your wallet to continue.`,
+  signInWithEthereumScreen_signedOut_button: 'Sign In',
+
+  signInWithEthereumScreen_signedIn_heading: 'Signed In With Ethereum',
+  signInWithEthereumScreen_signedIn_h1:
+    'You successfully verified yourself \n as the owner of this wallet.',
+  signInWithEthereumScreen_signedIn_p: `Signing out will require you to \n authenticate again in the future.`,
+  signInWithEthereumScreen_signedIn_button: 'Sign Out',
+};
+
+export default faIR;
